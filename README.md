@@ -46,7 +46,7 @@ This repository contains 10 deep learning projects designed to be completed over
 
 ### Day 1: Forward Neural Network
 
-**Description:** Build your first fully connected neural network (also known as multilayer perceptron) using both TensorFlow and PyTorch. This project introduces the fundamental concepts of neural networks, including layers, activation functions, backpropagation, and optimization.
+**Description:** Build your first fully connected neural network (also known as multilayer perceptron) using TensorFlow. This project introduces the fundamental concepts of neural networks, including layers, activation functions, backpropagation, and optimization.
 
 **Key Concepts:**
 - Neural Network Architecture
@@ -57,14 +57,8 @@ This repository contains 10 deep learning projects designed to be completed over
 
 **Implementation:**
 1. TensorFlow Implementation
-   - Sequential API
-   - Custom Model Subclassing
-   - Training and Evaluation
    
-2. PyTorch Implementation
-   - nn.Module and nn.Sequential
-   - Custom Network Implementation
-   - Training Loop from Scratch
+
 
 **Dataset:** MNIST for handwritten digit classification
 
@@ -73,17 +67,6 @@ This repository contains 10 deep learning projects designed to be completed over
 - Understanding of neural network components
 - Ability to implement networks in both frameworks
 
-**Code Structure:**
-```
-day1/
-├── tensorflow_implementation/
-│   ├── sequential_model.py
-│   └── custom_model.py
-├── pytorch_implementation/
-│   ├── sequential_model.py
-│   └── custom_model.py
-└── README.md
-```
 
 **Further Learning Resources:**
 - [TensorFlow Documentation](https://www.tensorflow.org/tutorials/quickstart/beginner)
